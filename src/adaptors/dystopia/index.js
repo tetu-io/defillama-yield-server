@@ -2,7 +2,7 @@ const { request, gql } = require('graphql-request');
 
 const utils = require('../utils');
 
-const urlPolygon = 'https://api.thegraph.com/subgraphs/name/dystopia-exchange/dystopia';
+const urlPolygon = 'https://thegraph.com/hosted-service/subgraph/dystopia-exchange/dystopia-v2';
 
 const buildPool = (entry, chainString) => {
   const symbol = utils.formatSymbol(
